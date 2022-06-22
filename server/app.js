@@ -17,13 +17,12 @@ app.use('/api/post', route);
 
 //DB
 mongoose.connect(process.env.DB_URI, {
-    uesNewUrlParser : true,
-    useUnifiedTopology : true,
-    useFindAndModify : true,
-    useCreateIndex : true
+    useNewUrlParser: true, 
+    useUnifiedTopology: true
+    
 })
 .then(() => console.log('connected to database'))
-.catch((err) => console.log(err))
+.catch((err) => console.log(err))   
 
 //start server
 

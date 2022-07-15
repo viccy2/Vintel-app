@@ -1,2 +1,2 @@
 # Vintel-app
- vintel
+US based Store E-commerce Application...

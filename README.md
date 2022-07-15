@@ -1,2 +1,2 @@
 # Vintel-app
-Blog Application
+Blog Application.

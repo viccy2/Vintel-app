@@ -2,7 +2,7 @@ const Post = require('../models/posts');
 const fs = require('fs');
 const { findByIdAndUpdate } = require('../models/posts');
 module.exports = class API {
-    //methods
+    // async methods
     //fetch all post methods
     static async fetchAllPost(req, res) {
        try {

@@ -1,3 +1,4 @@
+// require all 
 const express =  require('express');
 const router = express.Router();
 const API = require('../controllers/api');
@@ -17,6 +18,7 @@ let upload = multer({
     storage : storage,
 }).single("image");
 
+// routes 
 router.get('/', API.fetchAllPost);
 router.get('/:id', API.fetchPostByID);
 router.post('/', upload, API.createPost);
